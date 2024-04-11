@@ -36,7 +36,7 @@ const Drawer = ({ children, isOpen, setIsOpen }: DrawerProps) => {
                             </Link>
                         </div>
 
-                        <XMarkIcon className="block h-6 w-6" onClick={() => {
+                        <XMarkIcon className="block h-8 w-8" onClick={() => {
                             setIsOpen(false);
                         }} />
                     </header>

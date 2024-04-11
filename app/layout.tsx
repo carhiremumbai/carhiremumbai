@@ -2,6 +2,7 @@ import './globals.css';
 import Navbar from './components/Navbar/index';
 import Footer from './components/Footer/index';
 import QuickContact from './components/QuickContact';
+import BottomNav from './components/BottomNav';
 
 
 export const metadata = {
@@ -20,6 +21,9 @@ export default function RootLayout({
         {/* <QuickContact /> */}
         <Navbar />
         {children}
+        <div className='md:hidden block'>
+          <BottomNav />
+        </div>
         <Footer />
       </body>
     </html>

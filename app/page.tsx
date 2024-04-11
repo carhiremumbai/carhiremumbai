@@ -22,6 +22,7 @@ export default function Home() {
     <main>
       <Banner />
       <Aboutus />
+      <Articles />
       <Dedicated />
       <Digital />
       <Beliefs />
@@ -31,7 +32,6 @@ export default function Home() {
       <Manage />
       <FAQ />
       <Testimonials />
-      <Articles />
       <Joinus />
       <Insta />
       <WhatsAppButton textMessage="I'm interested in your car for sale" />

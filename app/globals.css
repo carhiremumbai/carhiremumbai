@@ -302,7 +302,7 @@ html {
 
 @media only screen and (max-width: 1023px) {
   .joinButton {
-    padding: 20px 92px;
+    padding: 20px 50px;
   }
 }
 

@@ -35,7 +35,7 @@ const Navbar = () => {
                 <div className="mx-auto max-w-7xl p-3 md:p-4 lg:px-2">
                     <div className="relative flex h-12 sm:h-20 items-center">
                         
-                        <div className="flex flex-1 items-center sm:justify-between">
+                        <div className="flex mr-4 flex-1 items-center sm:justify-between">
 
                             {/* LOGO */}
 

@@ -1,9 +1,10 @@
 import Image from "next/image";
+import Contactusform from "../Navbar/Contactus";
 
 const Banner = () => {
     return (
         <div className='mx-auto max-w-7xl my-10 sm:py-10 px-6 lg:px-8'>
-            <div className='grid grid-cols-1 lg:grid-cols-2 my-16'>
+            <div className='grid grid-cols-1 lg:grid-cols-2 my-4'>
 
                 {/* COLUMN-1 */}
 
@@ -22,6 +23,7 @@ const Banner = () => {
                         <button className='text-sm md:text-xl font-semibold hover:shadow-xl bg-blue text-white py-3 px-6 md:py-5 md:px-14 rounded-full hover:bg-hoblue'>
                             Get Started
                         </button>
+                        {/* <Contactusform/> */}
                     </div>
                 </div>
 

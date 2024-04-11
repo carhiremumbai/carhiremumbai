@@ -111,7 +111,7 @@ const Contactusform = () => {
                                                 />
                                             </div>
                                             <div>
-                                                <label htmlFor="mobile" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your email</label>
+                                                <label htmlFor="mobile" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your Phone</label>
                                                 <input
                                                     id="mobile"
                                                     name="input2"

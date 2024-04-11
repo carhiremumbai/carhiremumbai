@@ -4,12 +4,12 @@ import { FaWhatsapp } from "react-icons/fa";
 
 const BottomNav = () => {
     return (
-        <div className="grid grid-cols-3 fixed bottom-0 left-0 right-0 border-t-[1px] border-[#1F2937] text-[#374151] font-medium text-center w-screen m-0 p-0 h-16 bg-white">
-            <div className="flex flex-col justify-center items-center">
+        <div className="grid grid-cols-3 fixed bottom-0 left-0 right-0 border-t-[1px] border-[#1F2937] text-white font-medium text-center w-screen m-0 p-0 h-16 bg-btnblue">
+            <div className="flex flex-col justify-center border-r items-center">
                 <BiMessageDetail className="h-6 w-6" />
                 <a href="tel:+91 8286112257">Send Query</a>
             </div>
-            <div className="flex flex-col justify-center items-center">
+            <div className="flex flex-col justify-center border-r items-center">
                 <IoMdCall className="h-6 w-6" />
                 <a href="tel:+919076182397">Call us</a>
             </div>

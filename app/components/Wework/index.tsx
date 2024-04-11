@@ -57,15 +57,15 @@ export default class MultipleItems extends Component {
             // centerMode: true,
             slidesToScroll: 1,
             arrows: false,
-            autoplay: true,
-            speed: 4000,
-            autoplaySpeed: 2000,
+            // autoplay: true,
+            speed: 500,
+            // autoplaySpeed: 2000,
             cssEase: "linear",
             responsive: [
                 {
                     breakpoint: 1200,
                     settings: {
-                        slidesToShow: 3,
+                        slidesToShow: 5,
                         slidesToScroll: 1,
                         infinite: true,
                         dots: false

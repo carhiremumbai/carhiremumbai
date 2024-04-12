@@ -32,7 +32,7 @@ const Drawer = ({ children, isOpen, setIsOpen }: DrawerProps) => {
 
                         <div className="flex flex-shrink-0 items-center border-right">
                             <Link href="/" className='text-2xl font-semibold text-black'>
-                                Car Hire Mumbai
+                                CarHireMumbai
                             </Link>
                         </div>
 

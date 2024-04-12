@@ -33,15 +33,15 @@ const Navbar = () => {
         <Disclosure as="nav" className="navbar">
             <>
                 <div className="mx-auto max-w-7xl p-3 md:p-4 lg:px-2">
-                    <div className="relative flex h-12 sm:h-20 items-center">
+                    <div className="flex h-12 sm:h-20 items-center">
 
-                        <div className="flex mr-4 flex-1 items-center sm:justify-between">
+                        <div className="flex md:mr-4 md:flex-1 items-center md:justify-between ">
 
                             {/* LOGO */}
 
                             <div className="flex flex-shrink-0 items-center border-right">
                                 <Link href="/" className='text-2xl sm:text-4xl font-semibold text-black'>
-                                    Car Hire Mumbai
+                                    CarHireMumbai
                                 </Link>
                             </div>
 
@@ -75,7 +75,7 @@ const Navbar = () => {
                         {/* DRAWER ICON */}
 
                         <div className='block lg:hidden'>
-                            <Bars3Icon className="block h-6 w-6" aria-hidden="true" onClick={() => setIsOpen(true)} />
+                            <Bars3Icon className="block h-8 w-8 font-bold" aria-hidden="true" onClick={() => setIsOpen(true)} />
                         </div>
 
                         {/* DRAWER LINKS DATA */}

@@ -14,11 +14,11 @@ interface NavigationItem {
 }
 
 const navigation: NavigationItem[] = [
-    { name: 'About Us', href: '#aboutus-section', current: false },
+    { name: 'Fleets', href: '#blog-section', current: false },
     { name: 'Services', href: '#services-section', current: false },
-    { name: 'FAQ', href: '#faq-section', current: false },
-    { name: 'Blog', href: '#blog-section', current: false },
+    { name: 'About Us', href: '#aboutus-section', current: false },
     { name: 'Testimonial', href: '#testimonial-section', current: false },
+    { name: 'FAQ', href: '#faq-section', current: false },
 ]
 
 function classNames(...classes: string[]) {
@@ -34,7 +34,7 @@ const Navbar = () => {
             <>
                 <div className="mx-auto max-w-7xl p-3 md:p-4 lg:px-2">
                     <div className="relative flex h-12 sm:h-20 items-center">
-                        
+
                         <div className="flex mr-4 flex-1 items-center sm:justify-between">
 
                             {/* LOGO */}

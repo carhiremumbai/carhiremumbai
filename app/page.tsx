@@ -30,8 +30,8 @@ export default function Home() {
       <Ourteam />
       {/* <Featured /> */}
       <Manage />
-      <FAQ />
       <Testimonials />
+      <FAQ />
       <Joinus />
       <Insta />
       <WhatsAppButton textMessage="I'm interested in your car for sale" />

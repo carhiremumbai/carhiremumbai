@@ -6,20 +6,26 @@ const Dedicated = () => {
 
             <Image src="/images/dedicated/spiral.svg" height={272} width={686} alt="spiral-design" className="absolute left-0 hidden lg:block -z-10" />
 
-            <div className='mx-auto max-w-7xl px-4 my-40 sm:py-20 lg:px-8'>
-                <div className='grid grid-cols-1 md:grid-cols-2 my-16'>
+            <div className='mx-auto max-w-7xl px-4 md:my-40 my-20 sm:py-20 lg:px-8'>
+                <div className='grid grid-cols-1 items-center md:grid-cols-2 my-8'>
 
                     {/* COLUMN-1 */}
                     <div>
-                        <Image src="/images/dedicated/mumbai.jpg" alt="man-icon" width={416} height={530} className="mx-auto md:mx-0 rounded-2xl " />
+                        <Image src="/images/dedicated/mumbai.jpg" alt="man-icon" width={500} height={530} className="mx-auto md:mx-0 rounded-2xl " />
                     </div>
 
                     {/* COLUMN-2 */}
                     <div className="relative">
                         {/* <Image src="images/dedicated/comma.svg" alt="comma-image" width={200} height={106} className="absolute comma-pos hidden lg:block" /> */}
-                        <h2 className="text-4xl lg:text-65xl pt-4 font-bold sm:leading-tight mt-5 text-center lg:text-start">Delivering outstanding cab services in Mumbai.</h2>
-                        <p className="font-medium text-lightblack text-2xl mt-5 text-center lg:text-start">Offering reliable and comfortable rides, ensuring satisfaction.</p>
+                        <h2 className="text-4xl lg:text-5xl font-bold sm:leading-tight text-center lg:text-start">Experience Mumbai Like Never Before with Our Exclusive <span className="text-blue underline" >Mumbai Darshan Tour Package!</span></h2>
+                        <p className="font-medium text-lightblack text-2xl mt-5 text-justify lg:text-justify">Get ready to experience the city like never before with our exclusive <span className="underline" >Mumbai Darshan Tour Package</span>. During this tour, you will explore iconic landmarks such as the Gateway of India, Elephanta Caves, Chhatrapati Shivaji Maharaj Terminus, and Marine Drive. You will also get to taste delicious street food at Chowpatty Beach, shop till you drop at Colaba Causeway, and witness the bustling local markets. Our experienced tour guides will share interesting facts and stories about Mumbai's rich history and culture. So come join us and immerse yourself in the vibrant spirit of this incredible city. Book your Darshan Tour Package today!</p>
                         {/* <p className="text-2xl font-semibold mt-12 lg:ml-32 preline text-center lg:text-start"> Cathy Hills, CEO</p> */}
+                        <div className="text-center md:block hidden mt-8 text-center lg:text-start">
+                            <button className="text-xl font-semibold text-white bg-btnblue py-4 px-12 hover:bg-hoblue rounded-full">Book Now</button>
+                        </div>
+                    </div>
+                    <div className="text-center md:hidden block mt-5 lg:text-start">
+                        <button className="text-xl font-semibold text-white bg-btnblue py-4 px-12 hover:bg-hoblue rounded-full">Book Now</button>
                     </div>
 
                 </div>

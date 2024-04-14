@@ -4,19 +4,19 @@ import { ChevronUpIcon } from '@heroicons/react/20/solid'
 
 const faq = [
     {
-        question: "How do I book a cab in Mumbai?",
+        question: "How do I book a cab in Car Hire Mumbai?",
         answer: "You can book a cab through our website by filling the Inquire form, or by calling our customer service line."
     },
     {
         question: "What payment options are available for your cab services?",
-        answer: "We accept various payment methods, including cash, credit/debit cards, and mobile wallets."
+        answer: "We accept various payment methods, including cash, UPI, and mobile wallets."
     },
     {
         question: "Can I book a cab for a specific time in advance?",
-        answer: "Yes, you can schedule a ride for a later time using our app or website."
+        answer: "Yes, you can schedule a ride for a later time using our website."
     },
     {
-        question: "What types of cabs do you offer in Mumbai?",
+        question: "What types of cabs do you offer in Car Hire Mumbai?",
         answer: "We provide a range of cabs, including economy, premium, and luxury vehicles, to meet your preferences."
     },
     {
@@ -39,8 +39,8 @@ const FAQ = () => {
                                 {({ open }) => (
                                     <>
                                         <Disclosure.Button className="flex w-full justify-between items-center rounded-lg px-4 py-2 text-left text-xl font-medium">
-                                            <span>{item.question}</span>
-                                            <div className="w-[10%]">
+                                            <span className='' >{item.question}</span>
+                                            <div className="flex justify-end w-[10%]">
                                                 <ChevronUpIcon
                                                     className={`${open ? 'rotate-180 transform' : ''
                                                         } h-5 w-5 text-purple-500`}

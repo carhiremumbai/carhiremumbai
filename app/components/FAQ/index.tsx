@@ -5,7 +5,7 @@ import { ChevronUpIcon } from '@heroicons/react/20/solid'
 const faq = [
     {
         question: "How do I book a cab in Mumbai?",
-        answer: "You can book a cab through our app, website, or by calling our customer service line."
+        answer: "You can book a cab through our website by filling the Inquire form, or by calling our customer service line."
     },
     {
         question: "What payment options are available for your cab services?",

@@ -90,7 +90,11 @@ export default class MultipleItems extends Component {
                         <h3 className="text-blue text-lg font-normal tracking-widest">
                             Fleets
                         </h3>
-                        <h3 className="text-4xl sm:text-6xl font-bold">Our Fleets.</h3>
+                        <div className="text-center">
+                            <h3 className="text-4xl sm:text-6xl font-bold text-black my-2">Your journey, our diverse fleets.</h3>
+                            {/* <h3 className="text-4xl sm:text-6xl font-bold text-black opacity-50 lg:mr-48 my-2">Your journey, our diverse fleets.</h3> */}
+                            <h3 className="text-4xl sm:text-6xl font-bold text-black opacity-25 lg:-mr-32 my-2">Your journey, our diverse fleets.</h3>
+                        </div>
                     </div>
 
                     <Slider {...settings}>

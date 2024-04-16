@@ -9,9 +9,9 @@ interface NavigationItem {
 }
 
 const navigation: NavigationItem[] = [
-    { name: 'Fleets', href: '#blog-section', current: false },
-    { name: 'About Us', href: '#aboutus-section', current: true },
-    { name: 'Services', href: '#services-section', current: false },
+    { name: 'Fleets', href: '/fleets', current: false },
+    { name: 'Services', href: '/services-we-provide', current: false },
+    { name: 'About Us', href: '#aboutus-section', current: false },
     { name: 'Testimonial', href: '#testimonial-section', current: false },
     { name: 'FAQ', href: '#faq-section', current: false },
 ]

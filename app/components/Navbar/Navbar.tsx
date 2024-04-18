@@ -33,8 +33,13 @@ const Navbar = () => {
         <Disclosure as="nav" className="navbar">
             <>
                 <div className="mx-auto max-w-7xl p-3 md:p-4 lg:px-2">
+                    {/* Mobile Number */}
+                    <div className="flex justify-center -mt-4  items-center font-normal text-black">
+                        <p className="md:hidden flex items-center font-semibold text-lg "> Call now : <a href="tel:9372230856" className='mx-2 underline' >9372230856</a> / <a href="tel:7021754006" className='mx-2 underline'>7021754006</a> </p>
+                    </div>
                     <div className="flex h-12 sm:h-20 items-center">
 
+                        {/* LOGO AND LINKS */}
                         <div className="flex md:mr-4 md:flex-1 items-center md:justify-between ">
 
                             {/* LOGO */}

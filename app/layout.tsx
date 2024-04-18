@@ -3,6 +3,7 @@ import Navbar from './components/Navbar/index';
 import Footer from './components/Footer/index';
 import QuickContact from './components/QuickContact';
 import BottomNav from './components/BottomNav';
+import { PiPhoneCallLight } from "react-icons/pi";
 
 
 export const metadata = {
@@ -19,6 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         {/* <QuickContact /> */}
+        
         <Navbar />
         {children}
         <div className='md:hidden block'>

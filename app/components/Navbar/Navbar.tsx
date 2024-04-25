@@ -32,21 +32,22 @@ const Navbar = () => {
     return (
         <Disclosure as="nav" className="navbar">
             <>
+                <div className="md:hidden flex text-white bg-navyblue justify-center py-2  items-center font-normal ">
+                    <p className=" flex items-center font-semibold text-xl "> Call now : <a href="tel:9372230856" className='mx-2 underline' >9372230856</a> / <a href="tel:7021754006" className='mx-2 underline'>7021754006</a> </p>
+                </div>
                 <div className="mx-auto max-w-7xl p-3 md:p-4 lg:px-2">
                     {/* Mobile Number */}
-                    <div className="flex justify-center -mt-4  items-center font-normal text-black">
-                        <p className="md:hidden flex items-center font-semibold text-lg "> Call now : <a href="tel:9372230856" className='mx-2 underline' >9372230856</a> / <a href="tel:7021754006" className='mx-2 underline'>7021754006</a> </p>
-                    </div>
-                    <div className="flex h-12 sm:h-20 items-center">
+
+                    <div className="flex justify-between h-12 sm:h-20 items-center">
 
                         {/* LOGO AND LINKS */}
-                        <div className="flex md:mr-4 md:flex-1 items-center md:justify-between ">
+                        <div className="flex md:mr-4 md:flex-1 items-center justify-between ">
 
                             {/* LOGO */}
 
-                            <div className="flex flex-shrink-0 items-center border-right">
-                                <Link href="/" className='text-2xl sm:text-4xl font-semibold text-black'>
-                                    CarHireMumbai
+                            <div className="flex flex-shrink-0  items-center border-right">
+                                <Link href="/" className='text-2xl sm:text-4xl font-bold leading-6 text-black'>
+                                    Car Hire <br /> Mumbai
                                 </Link>
                             </div>
 

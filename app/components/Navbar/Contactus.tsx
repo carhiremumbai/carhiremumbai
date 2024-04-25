@@ -54,9 +54,6 @@ const Contactusform = () => {
                         Contact Us
                     </button>
                 </div>
-                {/* <p className='hidden lg:block ml-2 text-lg font-normal ' > <span>
-                    +91 7021754006 </span> <br /> <span> +91 9372093020</span>
-                </p> */}
             </div>
 
             <Transition appear show={isOpen} as={Fragment}>

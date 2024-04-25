@@ -32,7 +32,7 @@ const Navbar = () => {
     return (
         <Disclosure as="nav" className="navbar">
             <>
-                <div className="md:hidden flex text-white bg-navyblue justify-center py-2  items-center font-normal ">
+                <div className=" flex text-white bg-navyblue justify-center py-2  items-center font-normal ">
                     <p className=" flex items-center font-semibold text-xl "> Call now : <a href="tel:9372230856" className='mx-2 underline' >9372230856</a> / <a href="tel:7021754006" className='mx-2 underline'>7021754006</a> </p>
                 </div>
                 <div className="mx-auto max-w-7xl p-3 md:p-4 lg:px-2">

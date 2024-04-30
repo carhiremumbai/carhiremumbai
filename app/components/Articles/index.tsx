@@ -11,6 +11,7 @@ interface DataType {
     heading: string;
     rate: string;
     imgSrc: string;
+    msg: string;
 }
 
 const postData: DataType[] = [
@@ -19,30 +20,35 @@ const postData: DataType[] = [
         heading: "Swift Dzire",
         rate: "13",
         imgSrc: "/images/articles/dzire.png",
+        msg: "Hello, I'm looking to hire a Swift Dzire, Please share the details."
     },
     {
         time: "6+1",
         heading: "Innova Crysta",
         rate: "22",
         imgSrc: "/images/articles/innova.png",
+        msg: "Hello, I'm looking to hire an Innova Crysta, Please share the details."
     },
     {
         time: "6+1",
         heading: "Ertiga",
         rate: "16",
         imgSrc: "/images/articles/ertiga.png",
+        msg: "Hello, I'm looking to hire an Ertiga, Please share the details."
     },
     {
         time: "6+1",
         heading: "Kia Carens",
         rate: "18",
         imgSrc: "/images/articles/carens.png",
+        msg: "Hello, I'm looking to hire a Kia Carens, Please share the details."
     },
     {
         time: "13/17",
         heading: "Tempo Traveller",
         rate: "25+",
         imgSrc: "/images/articles/tempoTraveller.png",
+        msg: "Hello, I'm looking to hire a Tempo Traveller, Please share the details."
     },
 
 ];
@@ -116,7 +122,7 @@ export default class MultipleItems extends Component {
                                     </h4>
                                     <div className="flex items-center w-full  justify-between gap-4 mt-4">
 
-                                        <Link href="/" className="w-1/2" >
+                                        <Link href={`https://wa.me/919076182397?text=${items.msg}`} className="w-1/2" >
                                             <h3 className="bg-blue text-xl text-white hover:bg-black hover:shadow-xl py-3 px-6 rounded-2xl article-img text-center ">
                                                 Book Now
                                             </h3>

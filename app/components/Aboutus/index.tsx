@@ -31,13 +31,13 @@ const Aboutdata: datatype[] = [
     },
     {
         heading: "One-way Cab.",
-        imgSrc: "/images/aboutus/imgThree.svg",
+        imgSrc: "/images/aboutus/imgOne.svg",
         paragraph: ' Convenient one-way cab/taxi options for solo or group travel, ensuring economical fares and comfortable rides to your destination.',
         link: 'Learn more'
     },
     {
         heading: "Round Trip Cab.",
-        imgSrc: "/images/aboutus/imgThree.svg",
+        imgSrc: "/images/aboutus/imgTwo.svg",
         paragraph: 'Enjoy stress-free round trip cab services, offering convenience, reliability, and comfort for your complete travel itinerary, with flexible scheduling options.',
         link: 'Learn more'
     },

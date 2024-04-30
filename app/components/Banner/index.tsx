@@ -3,7 +3,7 @@ import Contactusform from "../Navbar/Contactus";
 
 const Banner = () => {
     return (
-        <div className='mx-auto max-w-7xl my-10 sm:py-10 px-6 lg:px-8'>
+        <div className='mx-auto max-w-7xl my-10 sm:mt-28 mt-32 sm:py-10 px-6 lg:px-8'>
             <div className='grid grid-cols-1 lg:grid-cols-2 my-4'>
 
                 {/* COLUMN-1 */}

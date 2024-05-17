@@ -5,7 +5,7 @@ const CallNowButton = () => {
         <div className="fixed md:block hidden bottom-4 z-50 left-4">
             {/* Call Button */}
             <a
-                href="tel:+919076182397"
+                href="tel:+917021754006"
                 className="bg-green-500 bg-blue flex items-center gap-2 hover:bg-green-600 text-white px-4 py-2  rounded-xl shadow"
             >
                 <MdAddCall className="h-8 w-8" />

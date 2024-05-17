@@ -5,7 +5,7 @@ const WhatsAppButton = ({ textMessage }: { textMessage: string }) => {
         <div className="fixed md:block hidden bottom-4 z-50 right-4">
             {/* WhatsApp Button */}
             <a
-                href={`https://wa.me/919076182397?text=${textMessage}`}
+                href={`https://wa.me/9170217540067?text=${textMessage}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-green-500 text-buttonText  bg-[#25d366] flex items-center gap-2 hover:bg-green-600 text-white px-4 py-2  rounded-xl shadow"

@@ -4,6 +4,11 @@ import Insta from "../components/Insta"
 import Join from "../components/Joinus"
 import WhatsAppButton from "../components/WhatsappButton"
 import Link from "next/link"
+import { Metadata } from "next"
+
+export const metadata: Metadata = {
+    title: "Our Services | CarHireMumbai",
+  };
 
 const servicesData = [
     {
@@ -84,7 +89,7 @@ const Services = () => {
                             <p>{item.desc}</p>
                             <div className="flex items-center w-full  justify-between gap-4 mt-4">
 
-                                <Link href={`https://wa.me/919076182397?text=${item.msg}`} className="w-1/2" >
+                                <Link href={`https://wa.me/917021754006?text=${item.msg}`} className="w-1/2" >
                                     <h3 className="bg-blue text-xl text-white hover:bg-black hover:shadow-xl py-3 px-6 rounded-2xl article-img text-center ">
                                         Book Now
                                     </h3>

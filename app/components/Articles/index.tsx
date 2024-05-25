@@ -57,7 +57,7 @@ const postData: DataType[] = [
 export default class MultipleItems extends Component {
   render() {
     const settings = {
-      dots: false,
+      dots: true,
       infinite: true,
       slidesToShow: 3,
       // centerMode: true,
@@ -82,14 +82,14 @@ export default class MultipleItems extends Component {
             slidesToShow: 1,
             slidesToScroll: 1,
             infinite: true,
-            dots: false,
+            dots: true,
           },
         },
       ],
     };
 
     return (
-      <div className="bg-lightgrey py-20" id="blog-section">
+      <div className="bg-lightgrey py-10" id="blog-section">
         <div className="mx-auto max-w-7xl sm:py-4 lg:px-8 ">
           <div className="text-center">
             <h3 className="text-blue text-lg font-normal tracking-widest">
@@ -99,17 +99,13 @@ export default class MultipleItems extends Component {
               <h3 className="text-4xl sm:text-6xl font-bold text-black my-2">
                 Your journey, our diverse fleets.
               </h3>
-              {/* <h3 className="text-4xl sm:text-6xl font-bold text-black opacity-50 lg:mr-48 my-2">Your journey, our diverse fleets.</h3> */}
-              <h3 className="text-4xl sm:text-6xl font-bold text-black opacity-25 lg:-mr-32 my-2">
-                Your journey, our diverse fleets.
-              </h3>
             </div>
           </div>
 
           <Slider {...settings}>
             {postData.map((items, i) => (
               <div key={i}>
-                <div className="bg-white m-3 px-3 pt-3 pb-3  my-10 shadow-lg rounded-3xl relative">
+                <div className="bg-white m-3 px-3 pt-3 pb-3 my-8 shadow-lg rounded-3xl relative">
                   <div className=" w-[360px] h-[202px] ">
                     <Image
                       src={items.imgSrc}

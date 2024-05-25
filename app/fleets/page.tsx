@@ -61,15 +61,11 @@ const Fleets = () => {
           alt="dots-image"
           className="absolute bottom-1 -left-20"
         />
-        <h3 className="text-center text-blue text-lg tracking-widest">
+        <h3 className="text-center text-blue mt-20 sm:mt-10 text-lg tracking-widest">
           Fleets
         </h3>
         <div className="text-center">
           <h3 className="text-4xl sm:text-6xl font-bold text-black my-2">
-            Your journey, our diverse fleets.
-          </h3>
-          {/* <h3 className="text-4xl sm:text-6xl font-bold text-black opacity-50 lg:mr-48 my-2">Your journey, our diverse fleets.</h3> */}
-          <h3 className="text-4xl sm:text-6xl font-bold text-black opacity-25 lg:-mr-32 my-2">
             Your journey, our diverse fleets.
           </h3>
         </div>

@@ -11,10 +11,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
     },
     {
-      url: "https://www.carhiremumbai.com/mumbai-to-shirdi-cab",
-      lastModified: new Date(),
-    },
-    {
       url: "https://www.carhiremumbai.com/mumbai-to-pune-cab",
       lastModified: new Date(),
     },
